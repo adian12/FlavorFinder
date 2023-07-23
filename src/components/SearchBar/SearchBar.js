@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./SearchBar.module.css";
 
 const sortByOptions = {
-    "Best Match": "best_match",
-    "Highest Rated": "rating",
-    "Most Reviewed": "review_count",
+    "best_match": "Best Match",
+    "rating": "Highest Rated",
+    "review_count": "Most Reviewed",
 };
 
 const SearchBar = () => {
